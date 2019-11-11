@@ -1,5 +1,5 @@
 #-*- coding: utf8 -*-
-#ya maap kodingam we berantakan :)>
+#Just For Fun Kok >< ara ara 
 
 import requests,random,time,os,sys
 req=requests.Session()
@@ -11,9 +11,9 @@ w='\033[0m'
 __banner__ = ('''
   spam kita.bisa gan :V
 %s ###############################
- # %scode : Maoundis             %s#
+ # %scode : DimasPnr             %s#
  # %stype : wa/email             %s#
- # %steam : xiuz.sec             %s#
+ # %steam : Mr.Rdiz              %s#
  ###############################%s
     ''' % (c,w,c,w,c,w,c,w))
 
@@ -43,7 +43,7 @@ class Mate_lampu():
             for i in range(1,saapa+1):
                 req.headers.update({'user-agent':random.choice(self.ua)});ceko = req.post('https://core.ktbs.io/v2/user/registration/temp', json = {'full_name':'Maoundis','user_id':self.goblok,'user_id_type':self.tolol})
                 if ceko.status_code == 200:
-                    print('  %s[%d] pesan: %ssuskes nyepam gan hehe :"c ' % (w,i,c))
+                    print('  %s[%d] pesan: %sSpam Berhasil Guys wkwk ;v ' % (w,i,c))
                 else:
                     print('  %s[%d] pesan: %s%s' % (w,i,r,ceko.json()['errors'][0]['details']['id']))
                 time.sleep(240)
