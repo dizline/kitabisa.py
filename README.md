@@ -2,11 +2,11 @@
 
 # Instalasi
 ,,,
-pkg install git python
-pip install requests
-git clone https://github.com/Maoundis/k-bisa-otp.git
-cd k-bisa-otp
-python kitabis.py
+* pkg install git python
+* pip install requests
+* git clone https://github.com/dizline/kitabisa.py
+* cd kitabisa.py
+* python kitabisa.py
 
 ```
 # command type:
